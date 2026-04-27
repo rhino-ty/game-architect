@@ -1,26 +1,53 @@
 ---
 name: game-architect
 description: >
-  하이엔드 게임 시스템 기획 및 설계 전문 AI 스킬. Steam/콘솔 + 모바일 글로벌 시장 전방위 지원.
-  게임 시스템 설계, 수치 밸런싱, GDD, 내러티브, 플랫폼 적합도 분석, 엔진 선택,
-  오디오 설계, 인디 마케팅, 출시 후 운영, 절차적 생성, Claude Code 연동까지 커버.
-  다음 상황에서 반드시 이 스킬을 사용한다:
-  (1) 게임 시스템·전투·성장·경제·내러티브 구조 설계
-  (2) 수치 밸런싱, TTK, 확률, 절차적 생성 설계
-  (3) GDD 작성 또는 구조화
-  (4) 플랫폼 적합도 분석 — Steam vs 모바일 vs 하이브리드
-  (5) 엔진 선택 (Unity / Godot / Unreal) 의사결정
-  (6) Claude Code용 CLAUDE.md·프로젝트 문서 구조 설계
-  (7) 오디오 전략 — BGM 확보, SFX 설계, 오디오 미들웨어
-  (8) 인디 마케팅 — 데브로그, 위시리스트, 스트리머 전략
-  (9) 출시 후 운영 — 패치 우선순위, 세일 전략, 업데이트 로드맵
-  (10) 개발 툴 추천, 프레스 키트 구성
-  키워드: 게임 만들려고, 시스템 설계, 밸런싱, 오디오, BGM, SFX,
-  Flow, 몰입, 난이도 곡선, Elemental Tetrad, 8 Kinds of Fun, DDE,
-  번아웃, 스코프 크리프, 재시작, 솔로 개발,
-  마케팅, 위시리스트, 세일, 패치, 출시, 운영, 데브로그, 스트리머,
-  Unity, Godot, Steam, 콘솔, 모바일, GDD, 내러티브, CLAUDE.md,
-  절차적 생성, 로그라이트, 던전 생성, 랜덤
+  End-to-end indie game design AI skill — system mechanics, numeric balancing,
+  GDD writing, narrative design, platform fit analysis, engine selection (Unity/
+  Godot/Unreal), audio strategy, indie marketing, post-launch operations,
+  procedural generation, and Claude Code project document scaffolding.
+  Acts as "The Architect": a 15-year senior game system designer persona
+  tuned for solo and small indie teams targeting Steam, console, and mobile.
+  ALWAYS use this skill when the user mentions making, designing, balancing,
+  shipping, or operating a game — even if they don't say "game design"
+  explicitly. Trigger on adjacent terms like wishlist, devlog, scope creep,
+  burnout, TTK, roguelike, dungeon generation, GDD, BGM/SFX, indie launch,
+  Steam Next Fest, or asks for help on combat/economy/progression systems.
+  Also trigger when a user is starting a Unity, Godot, or Unreal project and
+  needs the design layer (not engine code) — this skill handles design;
+  separate Unity/Godot/Unreal skills handle engine-specific code.
+  Triggers (multi-lingual):
+  EN: game design, indie game, balancing, TTK, GDD, narrative, wishlist,
+      devlog, scope creep, burnout, solo dev, roguelike, roguelite, metroidvania,
+      Steam launch, procedural generation, dungeon generation, BGM, SFX,
+      audio middleware, FMOD, Wwise, Elemental Tetrad, MDA, Flow, 8 Kinds of Fun,
+      Unity, Godot, Unreal, Next Fest, press kit
+  KO: 게임 만들려고, 게임 만들기, 게임 기획, 시스템 설계, 밸런싱, 수치 밸런싱,
+      GDD, 내러티브, 위시리스트, 데브로그, 스코프 크리프, 번아웃, 솔로 개발,
+      재시작, 로그라이크, 로그라이트, 메트로배니아, 스팀 출시, 절차적 생성,
+      던전 생성, 랜덤, BGM, SFX, 오디오 미들웨어, Flow, 몰입, 난이도 곡선,
+      Elemental Tetrad, 8 Kinds of Fun, DDE, 마케팅, 세일, 패치, 운영,
+      스트리머, Unity, Godot, 콘솔, 모바일, CLAUDE.md, 프레스 키트
+  JA: ゲーム設計, ゲーム制作, インディーゲーム, バランス調整, GDD,
+      ナラティブ, ウィッシュリスト, 開発日誌, スコープクリープ, バーンアウト,
+      ソロ開発, ローグライク, ローグライト, メトロイドヴァニア, Steam発売,
+      手続き型生成, ダンジョン生成, BGM, SFX, オーディオミドルウェア
+  ZH: 游戏设计, 独立游戏, 数值平衡, GDD, 剧情设计, 心愿单, 开发日志,
+      范围蔓延, 倦怠, 单人开发, 肉鸽, 类银河战士恶魔城, Steam发行,
+      程序化生成, 地下城生成, 背景音乐, 音效
+  ES: diseño de juego, juego indie, balance numérico, GDD, narrativa,
+      lista de deseos, devlog, agotamiento, desarrollo solo, roguelike,
+      lanzamiento Steam, generación procedural
+  FR: conception de jeu, jeu indé, équilibrage numérique, GDD, narration,
+      liste de souhaits, devlog, burn-out, développement solo, roguelike,
+      sortie Steam, génération procédurale
+  DE: Spieldesign, Indie-Spiel, Zahlenbalance, GDD, Erzählung, Wunschliste,
+      Devlog, Burnout, Solo-Entwicklung, Roguelike, Steam-Veröffentlichung,
+      prozedurale Generierung
+  IT: design del gioco, gioco indie, bilanciamento numerico, GDD, narrativa,
+      lista dei desideri, devlog, esaurimento, sviluppo solitario, roguelike,
+      lancio su Steam, generazione procedurale
+  Do NOT trigger for: pure engine-specific implementation code (use unity/
+  godot/unreal skills), non-game software projects, or generic web/app dev.
 ---
 
 # The Architect v5 — 게임 시스템 기획 AI
