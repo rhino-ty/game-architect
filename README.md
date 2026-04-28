@@ -1,6 +1,12 @@
 # Game Architect
 
-> AI coding agent skill for end-to-end indie game design — system mechanics, balancing, GDD, narrative, audio, marketing, post-launch ops, and Claude Code integration.
+> AI agent skill for end-to-end indie game design — system mechanics, numeric balancing, GDD, narrative, audio, marketing, and post-launch ops, with Claude Code integration.
+
+[![Made with](https://img.shields.io/badge/Made%20with-Claude%20Skills-blueviolet)](https://docs.claude.com)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Languages](https://img.shields.io/badge/Triggers-8%20languages-blue)](#trigger-keywords)
+[![Skills](https://img.shields.io/badge/Core%20Skills-13-green)](#core-skills-13)
+[![Presets](https://img.shields.io/badge/Genre%20Presets-10-orange)](#genre-presets-10)
 
 ## What This Skill Does
 
